@@ -21,9 +21,9 @@ body {
   background-color: #464646;
 }
 
-.tble {
+/*.tble {
  overflow-x:auto;
-}
+}*/
 div.smaller {
 	font-size: 12px;
 }
@@ -110,8 +110,6 @@ body.forms {
   text-align: center;
   padding:6px;
 }
-
-.respTable {
-	overflow-x:auto;
+.returnPage {
+	width: : 50%;
 }
-
