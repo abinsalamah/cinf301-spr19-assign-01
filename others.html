@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Abdullah">
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<body class="forms">
+
+<img  src="https://www.roarafrica.com/wp-content/uploads/2017/11/sample-logo.png" class="center">
+
+<h1>Register</h1>
+
+		<form>
+	
+		<div>
+			<label for="firstname">First Name:</label>
+			<input id="firstname" type="text" placeholder="Danial" required name="
+			firstname">
+			<label for="lastname">Last Name:</label>
+			<input id="lastname" type="text" placeholder="Plante" required name="
+			lastname">
+		</div>
+
+		<div>
+			Sex:
+			<label for="sexChoice">Male</label>
+			<input name="sexChoice" id="male" type="radio" value="MALE">
+			<label for="sexChoice">Female</label>
+			<input name="sexChoice" id="female" type="radio" value="FEMALE">
+			<label for="sexChoice">Other</label>
+			<input name="sexChoice" id="other" type="radio" value="OTHER">
+		</div>
+
+		<div>
+			<label for="email">Email:</label>
+			<input id ="email" type="email" placeholder="your email" required >
+
+			<!-- Must be between 5-10 charachters -->
+			<label for="password">Password:</label>
+			<input id ="password" placeholder="type your password" type="Password" required pattern=".{5,10}" title=" Password should be between 5 and 10 ">
+
+		</div>
+			<label>Birthday:</label>
+				<select name="month"> 
+					 <option value="0" selected disabled>Month</option>
+					<option> Jan </option>
+					<option> Feb </option>
+					<option> Mar </option>
+					<option> Apr </option>
+					<option> May </option>
+					<option> June </option>
+					<option> July </option>
+					<option> Aug </option>
+					<option> Sep </option>
+					<option> Oct </option>
+					<option> Nov </option>
+					<option> Dec </option>
+				</select>
+				<select name="day">
+					 <option value="0" selected disabled>Day</option>
+					<option>1</option>
+        			<option>2</option>
+        			<option>3</option>
+       			 	<option>4</option>
+        			<option>5</option>
+        			<option>6</option>
+       			 	<option>7</option>
+        			<option>8</option>
+        			<option>9</option>
+        			<option >10</option>
+        			<option >11</option>
+        			<option >12</option>
+        			<option >13</option>
+        			<option >14</option>
+        			<option >15</option>
+        			<option >16</option>
+        			<option >17</option>
+        			<option >18</option>
+        			<option >19</option>
+        			<option >20</option>
+        			<option >21</option>
+        			<option >22</option>
+        			<option >23</option>
+        			<option >24</option>
+        			<option >25</option>
+        			<option >26</option>
+        			<option >27</option>
+        			<option >28</option>
+        			<option >29</option>
+        			<option >30</option>
+        			<option >31</option>
+				</select>
+				<select name="year">
+					 <option value="0" selected disabled>Year</option>
+					<option>1999</option>
+					<option>1998</option>
+					<option>1997</option>
+					<option>1996</option>
+					<option>1995</option>
+					<option>1994</option>
+					<option>1993</option>
+					<option>1992</option>
+					<option>1991</option>
+					<option>1990</option>
+					<option>1989</option>
+					<option>1988</option>
+					<option>1987</option>
+					<option>1986</option>
+					<option>1985</option>
+					<option>1984</option>
+					<option>1983</option>
+				</select>
+
+			<div>
+				<label for="mushCkeck">I agree to the terms and conditions</label>
+				<input id ="mushCheck" type="checkbox" required>
+			</div>
+			
+			<button>Submit</button>
+			
+
+
+
+		</form>
+</body>
+</html>

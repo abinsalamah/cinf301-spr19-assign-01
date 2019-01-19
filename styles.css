@@ -1,0 +1,91 @@
+body {
+	 font-family: 'Montserrat', sans-serif;
+	 background-image: url("imgAssign01/cool-backgrounds.jpg");
+	 background-size:cover
+}
+
+.tble {
+
+}
+div.smaller {
+	font-size: 12px;
+}
+table {  
+    color: #333;
+    width: 640px; 
+    border-collapse: 
+    collapse; border-spacing: 0; 
+}
+
+.github {
+	/*border: 1px lighter #39B372;*/
+	width: 50;
+	height: 50;
+	background-color: #3669A3;
+	padding: 5px;
+
+}
+
+.main {
+	color: #40A3C7;
+}
+
+/*.me figure img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.me figure:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}*/
+
+	.hover07 figure img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover07 figure:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+div.hobb {
+	position: static;
+  border: 3px solid #3669A3;
+  width: 200px;
+  
+}
+
+.lili {
+	color: red;
+}
+
+ 
+body.forms {
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-image: url("imgAssign01/cool-backgrounds.jpg");
+	 background-size:cover
+	/* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;*/
+}
+
+.center {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.soccerRow {
+	 background-color: #3669A3;
+  color: white;
+  text-align: center;
+  padding:6px;
+}
+
